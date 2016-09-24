@@ -16,7 +16,7 @@ String getQualifiedPlayerUrl(String url) {
 
 String extractVideoId(String url) {
   Uri ytUrl = Uri.parse(url);
-  if (ytUrl.host == 'www.youtue.be' || ytUrl.host == 'youtue.be') {
+  if (ytUrl.host == 'www.youtu.be' || ytUrl.host == 'youtu.be') {
     // in the format of https://youtu.be/k2rcM3wwsS0
     return ytUrl.pathSegments.first;
   }
