@@ -1,0 +1,10 @@
+name: youtube_iframe
+version: 0.1.0
+description: Youtube iframe API Dart implementation
+dependencies:
+  browser: any
+  js: '^0.6.0'
+dev_dependencies:
+  test: any
+  mockito: any
+  webdriver: '^1.2.1'
